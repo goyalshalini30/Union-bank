@@ -1,0 +1,56 @@
+body{background-image:url("process.jpg");
+    height: 100%; 
+    background-position: up;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidenav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#2a5172;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+#openNav{
+	background-color:#2a5172;
+    color:white;
+	text-decoration: none;
+	font-size: 25px;
+	padding:8px;
+	padding-left:15px;
+	padding-right:15px;
+	border:0px;
+}
+#openNav:hover{
+	background-color:#2a5172;
+    color:white;
+}
+
+.sidenav a:hover {
+	background-color:white;
+    color:#2a5172;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
